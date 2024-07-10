@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+
+:root {
+    --dark-blue: #0a3871;
+    --main-color: #f3f5fc;
+    --light-blue: #d8dfe8;
+    --color-primaria: #000000;
+    --color-secundaria: #F6F6F6;
+    --color-terciaria: #22D4FD;
+    --color-hover: #272727;
+    --inter-font: "Inter", sans-serif;
+  }
+  * {
+    padding: 0;
+    margin:0;
+  
+  html {
+    font-size: 62.5%;
+  }
+  
+  header{
+    width: 100%;
+    height: 60px;
+    
+  }
+
+  header img{
+    height: 80%;
+    margin-left: 45px;
+    padding: 5px;
+  }
+
+  main{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+}
+  
+footer{
+    width: 100%;
+    height: 60px;
+    
+} 
+  section{
+    height: 100%;
+    border-radius: 15px;
+    background-color: #e7eeee;
+  }
+
+  .seccionIzq {
+    width: 60%;
+    margin-left: 20px;
+  }
+
+  .areaDeTexto {
+    width: 95%;
+    resize: none;
+    height: 71%;
+    display: block;
+    text-align: justify;
+    margin: auto;
+    margin-top: 20px;
+    font-size: 25px;
+    border-radius: 10px;
+    border: 0;
+    outline: 0;
+  }
+  .btn__container{
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    
+  }
+  .alert__msj {
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    margin-left: 1.5rem;
+  }
+
+  .contenedorBotones{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .botonEncriptar {
+    background: var(--dark-blue);
+    color: white;
+    font-size: 1.6rem;
+    padding: 1rem 2rem;
+    width: 310px;
+    height: 67px;
+    border-radius: 15px;
+    border: 1px solid var(--dark-blue);
+  }
+  
+  .botonDesencriptar {
+    background: transparent;
+    color: var(--dark-blue);
+    font-size: 1.6rem;
+    padding: 1rem 2rem;
+    width: 310px;
+    height: 67px;
+    border-radius: 15px;
+  }
+  
+  ::placeholder {
+    color: var(--dark-blue);
+  }
+
+  .seccionDerecha {
+    width: 30%;
+    margin-right: 10px;
+  }text-align: center;
+
+  .contenedorImagen{
+    width: 100%;
+    height: 60%;
+    padding-top: 30px;
+    text-align: center;
+    
+}
+.contenedorSubtitulo{
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    text-align:center;
+    color: #0a0a0a;
+}
+
+.contenedorParrafo{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    
+    margin-top: 1px;
+}
+
+.botonCopiar{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+.btnCopiar{
+    background: var(--dark-blue);
+    color: white;
+    font-size: 1.6rem;
+    padding: 1rem 2rem;
+    width: 310px;
+    height: 67px;
+    border-radius: 15px;
+    border: 1px solid var(--dark-blue);
+}
+
+footer{
+    width: 100%;
+    height: 60px;
+    color: rgb(3, 3, 3);
+    text-align: center;
+    padding-top: 20px;
+    box-sizing: border-box;
+    font-family: var(--inter-font);
+}
+  
+  .result {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10rem;
+    height: 72dvh;
+    border-radius: 32px;
+    max-width: 40rem;
+    width: 100%;
+  }
+  .hidden {
+    display: none;
+  }
+  
+  .result__img {
+    display: block;
+  }
+  
+  @media screen and (max-width: 768px) {
+    main {
+      flex-direction: column;
+    }
+       
+    
+}
+   
